@@ -1,16 +1,13 @@
 /* styles go here */
-/* .section {
-  margin: 20px;
-} */
-
-.form-field {
+.form-label {
   display: block;
 }
 
-.form-field:not(:last-child) {
+.form-label:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.section:not(:first-child) {
+.section:not(:first-child),
+.button {
   margin-top: 20px;
 }
