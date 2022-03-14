@@ -1,1 +1,16 @@
 /* styles go here */
+/* .section {
+  margin: 20px;
+} */
+
+.form-field {
+  display: block;
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.section:not(:first-child) {
+  margin-top: 20px;
+}
